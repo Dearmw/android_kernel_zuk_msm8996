@@ -162,3 +162,6 @@ obj-$(CONFIG_POWERCAP)		+= powercap/
 obj-$(CONFIG_MCB)		+= mcb/
 obj-$(CONFIG_RAS)		+= ras/
 obj-$(CONFIG_THUNDERBOLT)	+= thunderbolt/
+
+# Fingerprint Scanner
+obj-$(CONFIG_FINGERPRINT_GOODIX) += fingerprint/
