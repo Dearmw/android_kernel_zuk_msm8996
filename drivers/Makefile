@@ -163,5 +163,16 @@ obj-$(CONFIG_MCB)		+= mcb/
 obj-$(CONFIG_RAS)		+= ras/
 obj-$(CONFIG_THUNDERBOLT)	+= thunderbolt/
 
+# External Drivers
+obj-$(CONFIG_BIF)		+= bif/
+obj-$(CONFIG_CORESIGHT)		+= coresight/
+obj-$(CONFIG_ESOC)		+= esoc
+
+# Sensors
+obj-$(CONFIG_SENSORS_SSC)	+= sensors/
+
+# <t-drivers
+obj-$(CONFIG_MOBICORE_DRIVER)	+= gud/
+
 # Fingerprint Scanner
 obj-$(CONFIG_FINGERPRINT_GOODIX) += fingerprint/
